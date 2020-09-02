@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      position: absolute;
+      bottom: 1%;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section id="main_section">
+    <div class="sec">
+      <div class="image">
+        <img class="profile_img" src="./images/image-tanya.jpg" alt="girl image">
+        <div class="btn">
+          <div class="btn_img prev" onclick="slides(-1)">
+            <img src="./images/icon-prev.svg" alt="">
+          </div>
+          <div class="btn_img next" onclick="slides(1)">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <article class="dev girl">
+        <h3>
+          “ I’ve been interested in coding for a while but never taken the jump, until now.
+          I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+          excited about the future. ”
+        </h3>
+
+        <strong>Tanya Sinclair</strong>
+        <small>UX Engineer</small>
+      </article>
+    </div>
+
+    <div class="sec">
+      <div class="image">
+        <img class="profile_img" src="./images/image-john.jpg" alt="boy image">
+        <div class="btn">
+          <div class="btn_img prev" onclick="slides(-1)">
+            <img src="./images/icon-prev.svg" alt="">
+          </div>
+          <div class="btn_img next" onclick="slides(1)">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <article class="dev boy">
+        <h3>
+          “ If you want to lay the best foundation possible I’d recommend taking this course.
+          The depth the instructors go into is incredible. I now feel so confident about
+          starting up as a professional developer. ”
+        </h3>
+  
+        <strong>John Tarkpor</strong>
+        <small>Junior Front-end Developer</small>
+      </article>
+    </div>
+
+
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Biswanath Marndi</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
