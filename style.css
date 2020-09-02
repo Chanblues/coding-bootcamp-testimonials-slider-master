@@ -70,7 +70,7 @@ body {
     max-width: 500px;
     max-height: 500px;
     border-radius: 10px;
-    box-shadow: 0 15px 15px 0 rgba(111, 110, 204, 0.3);
+    box-shadow: 0 25px 10px 0 rgba(111, 110, 204, 0.1);
 }
 
 .dev {
