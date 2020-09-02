@@ -48,7 +48,7 @@ body {
     padding: 0;
     background-color: white;
     border-radius: 50px;
-    box-shadow: 5px 10px 20px 0 hsl(240, 18%, 77%);
+    box-shadow: 5px 10px 20px 0 rgba(111, 110, 204, 0.2);
 }
 
 .btn_img {
@@ -70,7 +70,7 @@ body {
     max-width: 500px;
     max-height: 500px;
     border-radius: 10px;
-    box-shadow: 0 25px 10px 0 rgba(111, 110, 204, 0.1);
+    box-shadow: 0 20px 10px 0 rgba(111, 110, 204, 0.1);
 }
 
 .dev {
